@@ -1,0 +1,38 @@
+#admin-key-descr {
+    width : 70em;
+}
+#admin-key-descr-content-ul {
+}
+/*1=oben, 2=rechts, 3=unten, 4=links*/
+#admin-key-descr-menu {
+    position:fixed;
+    top:0;
+    right:1em;
+    padding:.4em 0 .4em 0;
+}
+#admin-key-descr-content {
+    margin-top:3em;
+    margin-bottom:1em;
+    width : 70em;
+}
+
+#admin-key-descr .admin-key-descr-cat {
+    font-weight:bold;
+    padding-left:.8em;
+    padding-top:.4em;
+}
+#admin-key-descr .admin-key-descr-in {
+    margin-bottom:.4em;
+}
+#admin-key-descr li input {
+    width : 55em;
+}
+#admin-key-descr li span {
+    display:inline-block;
+    width : 7em;
+    padding-left:2em;
+}
+#admin-key-descr .admin-key-descr-submit {
+    margin-left:1em;
+    margin-right:1em;
+}
