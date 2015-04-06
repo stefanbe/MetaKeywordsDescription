@@ -27,7 +27,8 @@ class MetaKeywordsDescription extends Plugin {
                             $value['keywords'] = htmlentities($value['keywords'],ENT_QUOTES,CHARSET);
                             $value['description'] = htmlentities($value['description'],ENT_QUOTES,CHARSET);
                             $this->settings->set($cat_page,$value);
-                        }
+                        } else
+                            $this->settings->delete($cat_page);
                     }
                 }
             } elseif(getRequestValue('clearkeydescript',"post",false)) {
